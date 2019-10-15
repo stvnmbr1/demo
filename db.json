@@ -1,13 +1,16 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "equipment": [
+{"id":"1","name":"Heater","outlet":"5","on":true},
+{"id":"2","name":"Auto Top Off","outlet":"6","on":true},
+{"id":"3","name":"Skimmer","outlet":"1","on":false},
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
+  "outlets": [
+ {"id":"1","name":"CH3","pin":5,"equipment":"3","reverse":false},
+ {"id":"10","name":"CH7","pin":22,"equipment":"","reverse":false}
+],
+  "settings": [
+ {"name":"reef-pi","interface":"wlan0","address":"0.0.0.0:80","notification":false,"capabilities":{"dev_mode":false,"dashboard":true},"https":false,"pca9685":true,"rpi_pwm_freq":1000,"pca9685_pwm_freq":1000}
+],
   "profile": {
     "name": "typicode"
   }
