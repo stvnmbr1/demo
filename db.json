@@ -17,7 +17,4 @@
   "timers": [
  {"id":"1","minute":"*","day":"*","hour":"*","second":"0","name":"test","type":"equipment","reminder":{"title":"","message":""},"equipment":{"revert":false,"id":"1","on":true,"duration":60},"enable":false}
 ],
-  "profile": {
-    "name": "typicode"
-  }
 }
