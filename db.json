@@ -3,7 +3,7 @@
 {"id":"1","name":"Heater","outlet":"5","on":true},
 {"id":"2","name":"Auto Top Off","outlet":"6","on":true},
 {"id":"3","name":"Skimmer","outlet":"1","on":false},
-  ],
+],
   "outlets": [
  {"id":"1","name":"CH3","pin":5,"equipment":"3","reverse":false},
  {"id":"10","name":"CH7","pin":22,"equipment":"","reverse":false}
