@@ -9,9 +9,9 @@
  {"id":"10","name":"CH7","pin":22,"equipment":"","reverse":false}
 ],
   "settings": [
- {"name":"reef-pi","interface":"wlan0","address":"0.0.0.0:80","notification":false,"capabilities":{"dev_mode":false,"dashboard":true},"https":false,"pca9685":true,"rpi_pwm_freq":1000,"pca9685_pwm_freq":1000}
+{"dev_mode":false,"dashboard":true,"health_check":true,"equipment":true,"timers":true,"lighting":true,"temperature":true,"ato":true,"camera":false,"doser":false,"ph":false,"macro":true,"configuration":true},
 ],
-  "macros": [
+    "macros": [
  {"id":"1","name":"test macro","steps":[{"type":"wait","config":{"duration":50,"on":"","id":""}}],"enable":false}
 ],
   "timers": [
