@@ -9,7 +9,7 @@
  {"id":"10","name":"CH7","pin":22,"equipment":"","reverse":false}
 ],
   "capabilities": [
-{"dev_mode":false,"dashboard":true,"health_check":true,"equipment":true,"timers":true,"lighting":true,"temperature":true,"ato":true,"camera":false,"doser":false,"ph":false,"macro":true,"configuration":true},
+{"dev_mode":false,"dashboard":true,"health_check":true,"equipment":true,"timers":true,"lighting":true,"temperature":true,"ato":true,"camera":false,"doser":false,"ph":false,"macro":true,"configuration":true}
 ],
     "macros": [
  {"id":"1","name":"test macro","steps":[{"type":"wait","config":{"duration":50,"on":"","id":""}}],"enable":false}
