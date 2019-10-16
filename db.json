@@ -8,7 +8,7 @@
  {"id":"1","name":"CH3","pin":5,"equipment":"3","reverse":false},
  {"id":"10","name":"CH7","pin":22,"equipment":"","reverse":false}
 ],
-  "settings": [
+  "capabilities": [
 {"dev_mode":false,"dashboard":true,"health_check":true,"equipment":true,"timers":true,"lighting":true,"temperature":true,"ato":true,"camera":false,"doser":false,"ph":false,"macro":true,"configuration":true},
 ],
     "macros": [
